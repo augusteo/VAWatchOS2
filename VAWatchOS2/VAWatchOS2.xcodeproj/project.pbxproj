@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C7DBB201B29123B00A7E27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB1F1B29123B00A7E27D /* AppDelegate.swift */; };
+		1C7DBB221B29123B00A7E27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB211B29123B00A7E27D /* ViewController.swift */; };
+		1C7DBB251B29123B00A7E27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7DBB231B29123B00A7E27D /* Main.storyboard */; };
+		1C7DBB271B29123B00A7E27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7DBB261B29123B00A7E27D /* Assets.xcassets */; };
+		1C7DBB2A1B29123B00A7E27D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7DBB281B29123B00A7E27D /* LaunchScreen.storyboard */; };
+		1C7DBB351B29123B00A7E27D /* VAWatchOS2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB341B29123B00A7E27D /* VAWatchOS2Tests.swift */; };
+		1C7DBB401B29123B00A7E27D /* VAWatchOS2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB3F1B29123B00A7E27D /* VAWatchOS2UITests.swift */; };
+		1C7DBB451B29123B00A7E27D /* VAWatchOS2 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1C7DBB441B29123B00A7E27D /* VAWatchOS2 WatchKit App.app */; };
+		1C7DBB4B1B29123B00A7E27D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7DBB491B29123B00A7E27D /* Interface.storyboard */; };
+		1C7DBB4D1B29123B00A7E27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7DBB4C1B29123B00A7E27D /* Assets.xcassets */; };
+		1C7DBB541B29123B00A7E27D /* VAWatchOS2 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1C7DBB531B29123B00A7E27D /* VAWatchOS2 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C7DBB5B1B29123B00A7E27D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB5A1B29123B00A7E27D /* InterfaceController.swift */; };
+		1C7DBB5D1B29123B00A7E27D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB5C1B29123B00A7E27D /* ExtensionDelegate.swift */; };
+		1C7DBB5F1B29123B00A7E27D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB5E1B29123B00A7E27D /* NotificationController.swift */; };
+		1C7DBB611B29123B00A7E27D /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB601B29123B00A7E27D /* GlanceController.swift */; };
+		1C7DBB631B29123B00A7E27D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB621B29123B00A7E27D /* ComplicationController.swift */; };
+		1C7DBB651B29123B00A7E27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7DBB641B29123B00A7E27D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C7DBB311B29123B00A7E27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7DBB141B29123B00A7E27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7DBB1B1B29123B00A7E27D;
+			remoteInfo = VAWatchOS2;
+		};
+		1C7DBB3C1B29123B00A7E27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7DBB141B29123B00A7E27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7DBB1B1B29123B00A7E27D;
+			remoteInfo = VAWatchOS2;
+		};
+		1C7DBB461B29123B00A7E27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7DBB141B29123B00A7E27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7DBB431B29123B00A7E27D;
+			remoteInfo = "VAWatchOS2 WatchKit App";
+		};
+		1C7DBB551B29123B00A7E27D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C7DBB141B29123B00A7E27D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C7DBB521B29123B00A7E27D;
+			remoteInfo = "VAWatchOS2 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C7DBB6C1B29123B00A7E27D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1C7DBB541B29123B00A7E27D /* VAWatchOS2 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB701B29123B00A7E27D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1C7DBB451B29123B00A7E27D /* VAWatchOS2 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C7DBB1C1B29123B00A7E27D /* VAWatchOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAWatchOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7DBB1F1B29123B00A7E27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C7DBB211B29123B00A7E27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C7DBB241B29123B00A7E27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C7DBB261B29123B00A7E27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7DBB291B29123B00A7E27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C7DBB2B1B29123B00A7E27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7DBB301B29123B00A7E27D /* VAWatchOS2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VAWatchOS2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7DBB341B29123B00A7E27D /* VAWatchOS2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAWatchOS2Tests.swift; sourceTree = "<group>"; };
+		1C7DBB361B29123B00A7E27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7DBB3B1B29123B00A7E27D /* VAWatchOS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VAWatchOS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7DBB3F1B29123B00A7E27D /* VAWatchOS2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAWatchOS2UITests.swift; sourceTree = "<group>"; };
+		1C7DBB411B29123B00A7E27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7DBB441B29123B00A7E27D /* VAWatchOS2 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VAWatchOS2 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7DBB4A1B29123B00A7E27D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1C7DBB4C1B29123B00A7E27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7DBB4E1B29123B00A7E27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7DBB531B29123B00A7E27D /* VAWatchOS2 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "VAWatchOS2 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7DBB591B29123B00A7E27D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1C7DBB5A1B29123B00A7E27D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1C7DBB5C1B29123B00A7E27D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1C7DBB5E1B29123B00A7E27D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1C7DBB601B29123B00A7E27D /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		1C7DBB621B29123B00A7E27D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1C7DBB641B29123B00A7E27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7DBB661B29123B00A7E27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C7DBB191B29123B00A7E27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB2D1B29123B00A7E27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB381B29123B00A7E27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB501B29123B00A7E27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C7DBB131B29123B00A7E27D = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB1E1B29123B00A7E27D /* VAWatchOS2 */,
+				1C7DBB331B29123B00A7E27D /* VAWatchOS2Tests */,
+				1C7DBB3E1B29123B00A7E27D /* VAWatchOS2UITests */,
+				1C7DBB481B29123B00A7E27D /* VAWatchOS2 WatchKit App */,
+				1C7DBB571B29123B00A7E27D /* VAWatchOS2 WatchKit Extension */,
+				1C7DBB1D1B29123B00A7E27D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C7DBB1D1B29123B00A7E27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB1C1B29123B00A7E27D /* VAWatchOS2.app */,
+				1C7DBB301B29123B00A7E27D /* VAWatchOS2Tests.xctest */,
+				1C7DBB3B1B29123B00A7E27D /* VAWatchOS2UITests.xctest */,
+				1C7DBB441B29123B00A7E27D /* VAWatchOS2 WatchKit App.app */,
+				1C7DBB531B29123B00A7E27D /* VAWatchOS2 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C7DBB1E1B29123B00A7E27D /* VAWatchOS2 */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB1F1B29123B00A7E27D /* AppDelegate.swift */,
+				1C7DBB211B29123B00A7E27D /* ViewController.swift */,
+				1C7DBB231B29123B00A7E27D /* Main.storyboard */,
+				1C7DBB261B29123B00A7E27D /* Assets.xcassets */,
+				1C7DBB281B29123B00A7E27D /* LaunchScreen.storyboard */,
+				1C7DBB2B1B29123B00A7E27D /* Info.plist */,
+			);
+			path = VAWatchOS2;
+			sourceTree = "<group>";
+		};
+		1C7DBB331B29123B00A7E27D /* VAWatchOS2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB341B29123B00A7E27D /* VAWatchOS2Tests.swift */,
+				1C7DBB361B29123B00A7E27D /* Info.plist */,
+			);
+			path = VAWatchOS2Tests;
+			sourceTree = "<group>";
+		};
+		1C7DBB3E1B29123B00A7E27D /* VAWatchOS2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB3F1B29123B00A7E27D /* VAWatchOS2UITests.swift */,
+				1C7DBB411B29123B00A7E27D /* Info.plist */,
+			);
+			path = VAWatchOS2UITests;
+			sourceTree = "<group>";
+		};
+		1C7DBB481B29123B00A7E27D /* VAWatchOS2 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB491B29123B00A7E27D /* Interface.storyboard */,
+				1C7DBB4C1B29123B00A7E27D /* Assets.xcassets */,
+				1C7DBB4E1B29123B00A7E27D /* Info.plist */,
+			);
+			path = "VAWatchOS2 WatchKit App";
+			sourceTree = "<group>";
+		};
+		1C7DBB571B29123B00A7E27D /* VAWatchOS2 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB5A1B29123B00A7E27D /* InterfaceController.swift */,
+				1C7DBB5C1B29123B00A7E27D /* ExtensionDelegate.swift */,
+				1C7DBB5E1B29123B00A7E27D /* NotificationController.swift */,
+				1C7DBB601B29123B00A7E27D /* GlanceController.swift */,
+				1C7DBB621B29123B00A7E27D /* ComplicationController.swift */,
+				1C7DBB641B29123B00A7E27D /* Assets.xcassets */,
+				1C7DBB661B29123B00A7E27D /* Info.plist */,
+				1C7DBB581B29123B00A7E27D /* Supporting Files */,
+			);
+			path = "VAWatchOS2 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1C7DBB581B29123B00A7E27D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C7DBB591B29123B00A7E27D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C7DBB1B1B29123B00A7E27D /* VAWatchOS2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7DBB711B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2" */;
+			buildPhases = (
+				1C7DBB181B29123B00A7E27D /* Sources */,
+				1C7DBB191B29123B00A7E27D /* Frameworks */,
+				1C7DBB1A1B29123B00A7E27D /* Resources */,
+				1C7DBB701B29123B00A7E27D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7DBB471B29123B00A7E27D /* PBXTargetDependency */,
+			);
+			name = VAWatchOS2;
+			productName = VAWatchOS2;
+			productReference = 1C7DBB1C1B29123B00A7E27D /* VAWatchOS2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C7DBB2F1B29123B00A7E27D /* VAWatchOS2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7DBB741B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2Tests" */;
+			buildPhases = (
+				1C7DBB2C1B29123B00A7E27D /* Sources */,
+				1C7DBB2D1B29123B00A7E27D /* Frameworks */,
+				1C7DBB2E1B29123B00A7E27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7DBB321B29123B00A7E27D /* PBXTargetDependency */,
+			);
+			name = VAWatchOS2Tests;
+			productName = VAWatchOS2Tests;
+			productReference = 1C7DBB301B29123B00A7E27D /* VAWatchOS2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C7DBB3A1B29123B00A7E27D /* VAWatchOS2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7DBB771B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2UITests" */;
+			buildPhases = (
+				1C7DBB371B29123B00A7E27D /* Sources */,
+				1C7DBB381B29123B00A7E27D /* Frameworks */,
+				1C7DBB391B29123B00A7E27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7DBB3D1B29123B00A7E27D /* PBXTargetDependency */,
+			);
+			name = VAWatchOS2UITests;
+			productName = VAWatchOS2UITests;
+			productReference = 1C7DBB3B1B29123B00A7E27D /* VAWatchOS2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1C7DBB431B29123B00A7E27D /* VAWatchOS2 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7DBB6D1B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2 WatchKit App" */;
+			buildPhases = (
+				1C7DBB421B29123B00A7E27D /* Resources */,
+				1C7DBB6C1B29123B00A7E27D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C7DBB561B29123B00A7E27D /* PBXTargetDependency */,
+			);
+			name = "VAWatchOS2 WatchKit App";
+			productName = "VAWatchOS2 WatchKit App";
+			productReference = 1C7DBB441B29123B00A7E27D /* VAWatchOS2 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1C7DBB521B29123B00A7E27D /* VAWatchOS2 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C7DBB691B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2 WatchKit Extension" */;
+			buildPhases = (
+				1C7DBB4F1B29123B00A7E27D /* Sources */,
+				1C7DBB501B29123B00A7E27D /* Frameworks */,
+				1C7DBB511B29123B00A7E27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VAWatchOS2 WatchKit Extension";
+			productName = "VAWatchOS2 WatchKit Extension";
+			productReference = 1C7DBB531B29123B00A7E27D /* VAWatchOS2 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C7DBB141B29123B00A7E27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = augusteo;
+				TargetAttributes = {
+					1C7DBB1B1B29123B00A7E27D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1C7DBB2F1B29123B00A7E27D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1C7DBB1B1B29123B00A7E27D;
+					};
+					1C7DBB3A1B29123B00A7E27D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1C7DBB1B1B29123B00A7E27D;
+					};
+					1C7DBB431B29123B00A7E27D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1C7DBB521B29123B00A7E27D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 1C7DBB171B29123B00A7E27D /* Build configuration list for PBXProject "VAWatchOS2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C7DBB131B29123B00A7E27D;
+			productRefGroup = 1C7DBB1D1B29123B00A7E27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C7DBB1B1B29123B00A7E27D /* VAWatchOS2 */,
+				1C7DBB2F1B29123B00A7E27D /* VAWatchOS2Tests */,
+				1C7DBB3A1B29123B00A7E27D /* VAWatchOS2UITests */,
+				1C7DBB431B29123B00A7E27D /* VAWatchOS2 WatchKit App */,
+				1C7DBB521B29123B00A7E27D /* VAWatchOS2 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C7DBB1A1B29123B00A7E27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7DBB2A1B29123B00A7E27D /* LaunchScreen.storyboard in Resources */,
+				1C7DBB271B29123B00A7E27D /* Assets.xcassets in Resources */,
+				1C7DBB251B29123B00A7E27D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB2E1B29123B00A7E27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB391B29123B00A7E27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB421B29123B00A7E27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7DBB4D1B29123B00A7E27D /* Assets.xcassets in Resources */,
+				1C7DBB4B1B29123B00A7E27D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB511B29123B00A7E27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7DBB651B29123B00A7E27D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C7DBB181B29123B00A7E27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7DBB221B29123B00A7E27D /* ViewController.swift in Sources */,
+				1C7DBB201B29123B00A7E27D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB2C1B29123B00A7E27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7DBB351B29123B00A7E27D /* VAWatchOS2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB371B29123B00A7E27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7DBB401B29123B00A7E27D /* VAWatchOS2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C7DBB4F1B29123B00A7E27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C7DBB5F1B29123B00A7E27D /* NotificationController.swift in Sources */,
+				1C7DBB5D1B29123B00A7E27D /* ExtensionDelegate.swift in Sources */,
+				1C7DBB631B29123B00A7E27D /* ComplicationController.swift in Sources */,
+				1C7DBB5B1B29123B00A7E27D /* InterfaceController.swift in Sources */,
+				1C7DBB611B29123B00A7E27D /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C7DBB321B29123B00A7E27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7DBB1B1B29123B00A7E27D /* VAWatchOS2 */;
+			targetProxy = 1C7DBB311B29123B00A7E27D /* PBXContainerItemProxy */;
+		};
+		1C7DBB3D1B29123B00A7E27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7DBB1B1B29123B00A7E27D /* VAWatchOS2 */;
+			targetProxy = 1C7DBB3C1B29123B00A7E27D /* PBXContainerItemProxy */;
+		};
+		1C7DBB471B29123B00A7E27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7DBB431B29123B00A7E27D /* VAWatchOS2 WatchKit App */;
+			targetProxy = 1C7DBB461B29123B00A7E27D /* PBXContainerItemProxy */;
+		};
+		1C7DBB561B29123B00A7E27D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C7DBB521B29123B00A7E27D /* VAWatchOS2 WatchKit Extension */;
+			targetProxy = 1C7DBB551B29123B00A7E27D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C7DBB231B29123B00A7E27D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C7DBB241B29123B00A7E27D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C7DBB281B29123B00A7E27D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C7DBB291B29123B00A7E27D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1C7DBB491B29123B00A7E27D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C7DBB4A1B29123B00A7E27D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C7DBB671B29123B00A7E27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C7DBB681B29123B00A7E27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C7DBB6A1B29123B00A7E27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "VAWatchOS2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1C7DBB6B1B29123B00A7E27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "VAWatchOS2 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1C7DBB6E1B29123B00A7E27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = VAWatchOS2_WatchKit_Extension;
+				INFOPLIST_FILE = "VAWatchOS2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1C7DBB6F1B29123B00A7E27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = VAWatchOS2_WatchKit_Extension;
+				INFOPLIST_FILE = "VAWatchOS2 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1C7DBB721B29123B00A7E27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VAWatchOS2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C7DBB731B29123B00A7E27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VAWatchOS2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1C7DBB751B29123B00A7E27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VAWatchOS2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VAWatchOS2.app/VAWatchOS2";
+			};
+			name = Debug;
+		};
+		1C7DBB761B29123B00A7E27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VAWatchOS2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VAWatchOS2.app/VAWatchOS2";
+			};
+			name = Release;
+		};
+		1C7DBB781B29123B00A7E27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VAWatchOS2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VAWatchOS2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1C7DBB791B29123B00A7E27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VAWatchOS2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.augusteo.VAWatchOS2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VAWatchOS2;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C7DBB171B29123B00A7E27D /* Build configuration list for PBXProject "VAWatchOS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7DBB671B29123B00A7E27D /* Debug */,
+				1C7DBB681B29123B00A7E27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C7DBB691B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7DBB6A1B29123B00A7E27D /* Debug */,
+				1C7DBB6B1B29123B00A7E27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C7DBB6D1B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7DBB6E1B29123B00A7E27D /* Debug */,
+				1C7DBB6F1B29123B00A7E27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C7DBB711B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7DBB721B29123B00A7E27D /* Debug */,
+				1C7DBB731B29123B00A7E27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C7DBB741B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7DBB751B29123B00A7E27D /* Debug */,
+				1C7DBB761B29123B00A7E27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1C7DBB771B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C7DBB781B29123B00A7E27D /* Debug */,
+				1C7DBB791B29123B00A7E27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C7DBB141B29123B00A7E27D /* Project object */;
+}
