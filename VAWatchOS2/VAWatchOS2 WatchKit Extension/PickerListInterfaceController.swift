@@ -24,7 +24,7 @@ class PickerListInterfaceController: WKInterfaceController {
     }
     
     func setupDinnerMenu() -> [WKPickerItem] {
-        var menuArray:[WKPickerItem] = []
+        var menuArray: [WKPickerItem] = []
         
         for item in dinnerTitleArray {
             let x = WKPickerItem()
