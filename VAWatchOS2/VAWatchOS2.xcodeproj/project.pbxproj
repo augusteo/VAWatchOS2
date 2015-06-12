@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C038E821B2A3115007FB647 /* sampleConnect.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1C038E811B2A3115007FB647 /* sampleConnect.mov */; };
+		1C038E841B2A31B3007FB647 /* PostAudioInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C038E831B2A31B3007FB647 /* PostAudioInterfaceController.swift */; };
+		1C038E8A1B2A3F74007FB647 /* DownloadedVideoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C038E891B2A3F74007FB647 /* DownloadedVideoInterfaceController.swift */; };
+		1C66A6B41B2A1AB800C0945E /* sampleVideo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1C66A6B31B2A1AB800C0945E /* sampleVideo.m4v */; };
+		1C66A6B61B2A1B0B00C0945E /* sampleAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C66A6B51B2A1B0B00C0945E /* sampleAudio.mp3 */; };
+		1C66A6B91B2A1B6600C0945E /* BundledVideoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66A6B81B2A1B6600C0945E /* BundledVideoInterfaceController.swift */; };
+		1C66A6BB1B2A1B6E00C0945E /* BundledAudioInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66A6BA1B2A1B6E00C0945E /* BundledAudioInterfaceController.swift */; };
+		1C66A6BD1B2A208000C0945E /* DownloadedAudioInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66A6BC1B2A208000C0945E /* DownloadedAudioInterfaceController.swift */; };
+		1C66A6C01B2A30A000C0945E /* ConnectivityInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C66A6BF1B2A30A000C0945E /* ConnectivityInterfaceController.swift */; };
 		1C7DBB201B29123B00A7E27D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB1F1B29123B00A7E27D /* AppDelegate.swift */; };
 		1C7DBB221B29123B00A7E27D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7DBB211B29123B00A7E27D /* ViewController.swift */; };
 		1C7DBB251B29123B00A7E27D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7DBB231B29123B00A7E27D /* Main.storyboard */; };
@@ -86,6 +95,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1C038E811B2A3115007FB647 /* sampleConnect.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = sampleConnect.mov; sourceTree = "<group>"; };
+		1C038E831B2A31B3007FB647 /* PostAudioInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostAudioInterfaceController.swift; sourceTree = "<group>"; };
+		1C038E891B2A3F74007FB647 /* DownloadedVideoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadedVideoInterfaceController.swift; sourceTree = "<group>"; };
+		1C66A6B31B2A1AB800C0945E /* sampleVideo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sampleVideo.m4v; sourceTree = "<group>"; };
+		1C66A6B51B2A1B0B00C0945E /* sampleAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sampleAudio.mp3; sourceTree = "<group>"; };
+		1C66A6B81B2A1B6600C0945E /* BundledVideoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundledVideoInterfaceController.swift; sourceTree = "<group>"; };
+		1C66A6BA1B2A1B6E00C0945E /* BundledAudioInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundledAudioInterfaceController.swift; sourceTree = "<group>"; };
+		1C66A6BC1B2A208000C0945E /* DownloadedAudioInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadedAudioInterfaceController.swift; sourceTree = "<group>"; };
+		1C66A6BF1B2A30A000C0945E /* ConnectivityInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectivityInterfaceController.swift; sourceTree = "<group>"; };
 		1C7DBB1C1B29123B00A7E27D /* VAWatchOS2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAWatchOS2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7DBB1F1B29123B00A7E27D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7DBB211B29123B00A7E27D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +167,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C038E801B2A30C7007FB647 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				1C038E811B2A3115007FB647 /* sampleConnect.mov */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		1C66A6B21B2A1A8300C0945E /* MediaFiles */ = {
+			isa = PBXGroup;
+			children = (
+				1C66A6B51B2A1B0B00C0945E /* sampleAudio.mp3 */,
+				1C66A6B31B2A1AB800C0945E /* sampleVideo.m4v */,
+			);
+			name = MediaFiles;
+			sourceTree = "<group>";
+		};
+		1C66A6B71B2A1B5600C0945E /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1C66A6B81B2A1B6600C0945E /* BundledVideoInterfaceController.swift */,
+				1C66A6BA1B2A1B6E00C0945E /* BundledAudioInterfaceController.swift */,
+				1C66A6BC1B2A208000C0945E /* DownloadedAudioInterfaceController.swift */,
+				1C038E891B2A3F74007FB647 /* DownloadedVideoInterfaceController.swift */,
+			);
+			name = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		1C66A6BE1B2A309300C0945E /* Connectivity */ = {
+			isa = PBXGroup;
+			children = (
+				1C66A6BF1B2A30A000C0945E /* ConnectivityInterfaceController.swift */,
+				1C038E831B2A31B3007FB647 /* PostAudioInterfaceController.swift */,
+			);
+			name = Connectivity;
+			sourceTree = "<group>";
+		};
 		1C7DBB131B29123B00A7E27D = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +231,7 @@
 		1C7DBB1E1B29123B00A7E27D /* VAWatchOS2 */ = {
 			isa = PBXGroup;
 			children = (
+				1C038E801B2A30C7007FB647 /* Media */,
 				1C7DBB1F1B29123B00A7E27D /* AppDelegate.swift */,
 				1C7DBB211B29123B00A7E27D /* ViewController.swift */,
 				1C7DBB231B29123B00A7E27D /* Main.storyboard */,
@@ -217,6 +273,7 @@
 		1C7DBB571B29123B00A7E27D /* VAWatchOS2 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1C66A6B21B2A1A8300C0945E /* MediaFiles */,
 				1C7DBB7A1B29156300A7E27D /* Interface Controllers */,
 				1C7DBB5C1B29123B00A7E27D /* ExtensionDelegate.swift */,
 				1C7DBB5E1B29123B00A7E27D /* NotificationController.swift */,
@@ -240,6 +297,8 @@
 		1C7DBB7A1B29156300A7E27D /* Interface Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1C66A6BE1B2A309300C0945E /* Connectivity */,
+				1C66A6B71B2A1B5600C0945E /* MediaPlayer */,
 				1C7DBB5A1B29123B00A7E27D /* InterfaceController.swift */,
 				1C7DBB7D1B29EEB400A7E27D /* DigiCrown */,
 			);
@@ -404,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C7DBB2A1B29123B00A7E27D /* LaunchScreen.storyboard in Resources */,
+				1C038E821B2A3115007FB647 /* sampleConnect.mov in Resources */,
 				1C7DBB271B29123B00A7E27D /* Assets.xcassets in Resources */,
 				1C7DBB251B29123B00A7E27D /* Main.storyboard in Resources */,
 			);
@@ -437,6 +497,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C7DBB651B29123B00A7E27D /* Assets.xcassets in Resources */,
+				1C66A6B41B2A1AB800C0945E /* sampleVideo.m4v in Resources */,
+				1C66A6B61B2A1B0B00C0945E /* sampleAudio.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,13 +534,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C66A6B91B2A1B6600C0945E /* BundledVideoInterfaceController.swift in Sources */,
 				1C7DBB5F1B29123B00A7E27D /* NotificationController.swift in Sources */,
+				1C66A6BD1B2A208000C0945E /* DownloadedAudioInterfaceController.swift in Sources */,
 				1C7DBB5D1B29123B00A7E27D /* ExtensionDelegate.swift in Sources */,
+				1C66A6C01B2A30A000C0945E /* ConnectivityInterfaceController.swift in Sources */,
 				1C7DBB7F1B29EEC400A7E27D /* StackListInterfaceController.swift in Sources */,
 				1C7DBB631B29123B00A7E27D /* ComplicationController.swift in Sources */,
 				1C7DBB5B1B29123B00A7E27D /* InterfaceController.swift in Sources */,
 				1C7DBB811B29EED600A7E27D /* StackListOrderInterfaceController.swift in Sources */,
+				1C66A6BB1B2A1B6E00C0945E /* BundledAudioInterfaceController.swift in Sources */,
+				1C038E841B2A31B3007FB647 /* PostAudioInterfaceController.swift in Sources */,
 				1C7DBB611B29123B00A7E27D /* GlanceController.swift in Sources */,
+				1C038E8A1B2A3F74007FB647 /* DownloadedVideoInterfaceController.swift in Sources */,
 				1C7DBB7C1B29159300A7E27D /* PickerListInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -774,6 +842,7 @@
 				1C7DBB6B1B29123B00A7E27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C7DBB6D1B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -782,6 +851,7 @@
 				1C7DBB6F1B29123B00A7E27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C7DBB711B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2" */ = {
 			isa = XCConfigurationList;
@@ -790,6 +860,7 @@
 				1C7DBB731B29123B00A7E27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C7DBB741B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2Tests" */ = {
 			isa = XCConfigurationList;
@@ -798,6 +869,7 @@
 				1C7DBB761B29123B00A7E27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C7DBB771B29123B00A7E27D /* Build configuration list for PBXNativeTarget "VAWatchOS2UITests" */ = {
 			isa = XCConfigurationList;
@@ -806,6 +878,7 @@
 				1C7DBB791B29123B00A7E27D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

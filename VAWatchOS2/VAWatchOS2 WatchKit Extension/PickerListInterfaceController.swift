@@ -15,9 +15,14 @@ class PickerListInterfaceController: WKInterfaceController {
     @IBOutlet var dinnerImageView: WKInterfaceImage!
     
     let dinnerTitleArray = ["Pizza", "Burger", "Noodle", "Gnocchi", "Meatball"]
+    var imageArray:[UIImage] = []
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+        
+        for i in dinnerTitleArray {
+            imageArray.append(UIImage(named: i)!)
+        }
         
         listPicker.setItems(setupDinnerMenu())
         dinnerImageView.setImage(UIImage(named: dinnerTitleArray[0]))
@@ -36,6 +41,7 @@ class PickerListInterfaceController: WKInterfaceController {
     }
 
     @IBAction func onListChanged(value: Int) {
-        dinnerImageView.setImage(UIImage(named: dinnerTitleArray[value]))
+//        dinnerImageView.setImage(UIImage(named: dinnerTitleArray[value]))
+        dinnerImageView.setImage(imageArray[value])
     }
 }
